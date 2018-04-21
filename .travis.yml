@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "8"
+  - ">=8.0.0"
   - stable
 
 install:
@@ -8,3 +8,6 @@ install:
 
 script: 
   - npm test
+
+after_script:
+  - "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
