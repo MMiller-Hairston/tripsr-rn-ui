@@ -1,15 +1,17 @@
-# tripsr-rn-ui
+# tripsr-rn-ui [![Build Status](https://travis-ci.org/MMiller-Hairston/tripsr-rn-ui.svg?branch=master)](https://travis-ci.org/MMiller-Hairston/tripsr-rn-ui) [![Coverage Status](https://coveralls.io/repos/github/MMiller-Hairston/tripsr-rn-ui/badge.svg)](https://coveralls.io/github/MMiller-Hairston/tripsr-rn-ui) [![npm version](https://badge.fury.io/js/tripsr-rn.svg)](https://badge.fury.io/js/tripsr-rn)
 
-[![Build Status](https://travis-ci.org/MMiller-Hairston/tripsr-rn-ui.svg?branch=master)](https://travis-ci.org/MMiller-Hairston/tripsr-rn-ui)
-
-[![Coverage Status](https://coveralls.io/repos/github/MMiller-Hairston/tripsr-rn-ui/badge.svg)](https://coveralls.io/github/MMiller-Hairston/tripsr-rn-ui)
+[![NPM](https://nodei.co/npm/tripsr-rn.png?compact=true)](https://nodei.co/npm/tripsr-rn/)
 
 Component library for Tripsr.
 
-## Installation
+_Install Tripsr-RN_
 
-    `npm install tripsr-rn -S`
+```js
+npm install -S tripsr-rn
+```
 
-    or
+or
 
-    `yarn add tripsr-rn`
+```js
+yarn add tripsr-rn
+```
