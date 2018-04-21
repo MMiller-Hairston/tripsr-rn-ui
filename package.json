@@ -4,7 +4,12 @@
   "description": "Component library for Tripsr",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "build":
+      "rm -rf dist/* && babel . --out-dir dist --ignore node_modules, dist --source-maps",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
   },
   "repository": {
     "type": "git",
@@ -21,13 +26,35 @@
     "native-modules",
     "react-component"
   ],
-  "author": "Michael Miller <michael.millerhairston@gmail.com> (http://www.michaelmillerhairston.com)",
+  "author":
+    "Michael Miller <michael.millerhairston@gmail.com> (http://www.michaelmillerhairston.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MMiller-Hairston/tripsr-rn-ui/issues"
   },
   "homepage": "https://github.com/MMiller-Hairston/tripsr-rn-ui#readme",
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.3",
+    "prettier": "^1.12.1",
+    "react-test-renderer": "^16.3.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-native": "^0.55.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true
   }
 }
