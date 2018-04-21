@@ -1,0 +1,33 @@
+{
+  "name": "tripsr-rn",
+  "version": "0.1.0",
+  "description": "Component library for Tripsr",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMiller-Hairston/tripsr-rn-ui.git"
+  },
+  "keywords": [
+    "ios",
+    "android",
+    "react",
+    "native",
+    "library",
+    "components",
+    "react-native",
+    "native-modules",
+    "react-component"
+  ],
+  "author": "Michael Miller <michael.millerhairston@gmail.com> (http://www.michaelmillerhairston.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MMiller-Hairston/tripsr-rn-ui/issues"
+  },
+  "homepage": "https://github.com/MMiller-Hairston/tripsr-rn-ui#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
