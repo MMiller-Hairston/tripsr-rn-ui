@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Text, TouchableOpacity } from 'react-native';
 
-const applyStyle = style => {
+export const applyStyle = style => {
   switch (style) {
     case 'primary':
       return styles.buttonPrimary;
@@ -28,7 +28,7 @@ Button.propTypes = {
   onPress: PropTypes.func.isRequired,
 };
 
-const styles = {
+export const styles = {
   colorWhite: {
     color: '#fff',
   },

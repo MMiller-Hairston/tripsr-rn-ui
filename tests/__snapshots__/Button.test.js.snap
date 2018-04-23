@@ -20,7 +20,20 @@ exports[`Button renders correctly 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderColor": "#fff",
+      "borderRadius": 3,
+      "borderWidth": 1,
+      "marginBottom": 10,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "marginTop": 10,
       "opacity": 1,
+      "paddingBottom": 20,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 20,
     }
   }
   testID={undefined}
@@ -30,6 +43,259 @@ exports[`Button renders correctly 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "textShadowColor": "black",
+        "textShadowOffset": Object {
+          "height": 0.25,
+          "width": 0,
+        },
+        "textShadowRadius": 0.4,
+      }
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`Button renders correctly with facebook type 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#3b5998",
+      "borderRadius": 3,
+      "marginBottom": 10,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "marginTop": 10,
+      "opacity": 1,
+      "paddingBottom": 20,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 20,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "textShadowColor": "black",
+        "textShadowOffset": Object {
+          "height": 0.25,
+          "width": 0,
+        },
+        "textShadowRadius": 0.4,
+      }
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`Button renders correctly with google type 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#df4a32",
+      "borderRadius": 3,
+      "marginBottom": 10,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "marginTop": 10,
+      "opacity": 1,
+      "paddingBottom": 20,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 20,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "textShadowColor": "black",
+        "textShadowOffset": Object {
+          "height": 0.25,
+          "width": 0,
+        },
+        "textShadowRadius": 0.4,
+      }
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`Button renders correctly with primary type 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#62C6BB",
+      "borderRadius": 3,
+      "marginBottom": 10,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "marginTop": 10,
+      "opacity": 1,
+      "paddingBottom": 20,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 20,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "textShadowColor": "black",
+        "textShadowOffset": Object {
+          "height": 0.25,
+          "width": 0,
+        },
+        "textShadowRadius": 0.4,
+      }
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`Button renders correctly with primary type 2`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#3b5998",
+      "borderRadius": 3,
+      "marginBottom": 10,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "marginTop": 10,
+      "opacity": 1,
+      "paddingBottom": 20,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 20,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "textShadowColor": "black",
+        "textShadowOffset": Object {
+          "height": 0.25,
+          "width": 0,
+        },
+        "textShadowRadius": 0.4,
+      }
+    }
   >
     Test
   </Text>
